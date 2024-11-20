@@ -4,7 +4,7 @@ import SliderItem1 from '../data/projects/contempo/Land Design CA.png';
 import iphonefirstimg from '../data/projects/contempo/iphonefirstimg.png';
 import secondiphone from '../data/projects/contempo/secondiphone.png';
 import SliderItem2 from '../data/projects/dallimore/DallimoreMarbella.png';
-import IveyImg from '../data/projects/Ivey/Ivey.png';
+import IveyImg from '../data/projects/Ivey/iPhoneMockupnew.png';
 import TerraImg from '../data/projects/terra-ecommerce/Terra.png';
 import SliderItem3 from '../data/projects/meso-travel/athens-based-banner.png';
 import SliderItem4 from '../data/projects/swift/featured_slide.png';
