@@ -2,11 +2,11 @@ import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation, A11y, Scrollbar } from "swiper/modules";
-import WhatsappLogo from "../assets/images/wh-1.png";
-import WhatsappLogo2 from "../assets/images/wh-2.png";
+import WhatsappLogo from "../assets/images/wh-1new.png";
+import WhatsappLogo2 from "../assets/images/wh-2new.png";
 import WomanLogo from "../assets/images/woman2.png";
-import londonWH1 from "../assets/images/london-wh-1.png";
-import londonWH2 from "../assets/images/london-wh-2.png";
+import londonWH1 from "../assets/images/london-wh-1new.png";
+import londonWH2 from "../assets/images/london-wh-2new.png";
 import LeftArrow from "../assets/images/left-arrow.svg";
 import RightArrow from "../assets/images/right-arrow.svg";
 
@@ -45,7 +45,7 @@ export default function ReviewSlider() {
             spaceBetween: 50,
             centeredSlides: true,
           },
-          550: {
+          680: {
             spaceBetween: 70,
             slidesPerView: 2,
           },

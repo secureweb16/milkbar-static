@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 // import { Link } from 'react-router-dom';
-import iPhoneMockup from "../assets/images/iPhoneMockup.png";
+import iPhoneMockup from "../assets/images/iPhoneMockupnew.png";
 import Gallery2 from "../assets/images/gallery-2.jpg";
 import Gallery3 from "../assets/images/gallery-3.png";
 import londonbasedbanner from "../assets/images/londonbasedbanner.png";
-import Hongkongmiddle from "../assets/images/Hongkongmiddle.png";
+import Hongkongmiddle from "../assets/images/Hongkongmiddlenew.png";
 import londonecommer from "../assets/images/londonecommer.png";
 import Video from "../assets/videos/single-projectslider-video.mp4";
 import Toronto from "../assets/videos/Toronto.mp4";
@@ -177,7 +177,7 @@ export default function SingleProjectGallery({ projects }) {
               </svg></Link>
             </div>
           </div>
-          <div className="gallery_pos gallery-content-1">
+          <div className="gallery_pos gallery-content-1 dubaicontent">
             <video autoPlay muted loop playsInline className="object-fit-cover">
               <source src={dubaibasedvideo} type="video/mp4" />
             </video>

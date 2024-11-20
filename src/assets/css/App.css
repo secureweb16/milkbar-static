@@ -1557,6 +1557,9 @@ a.follow_button {
   padding-right: 100px;
   border-bottom: 1px solid #FFFFFF80;
 }
+.home_gallery_block .gallery-top-container {
+    margin-top: 0;
+}
 .gallery-top-container,
 .gallery-bottom-container {
   display: flex;
@@ -1622,11 +1625,11 @@ a.follow_button {
   margin-top: 107px;
 }
 .home_gallery_block .firstsec .gallery-content-1 {
-  background: url(../images/firstimg.png) lightgray 50% / cover no-repeat;
+  background: none;
 }
-.home_gallery_block .second_sec .gallery-content-1 {
+/* .home_gallery_block .second_sec .gallery-content-1 {
   background: url(../images/hongkongbanner.png) lightgray 50% / cover no-repeat;
-}
+} */
 .home_gallery_block .thirdsec .gallery-content-1 {
   background: #F1F1EC;
   overflow: hidden;
@@ -1647,11 +1650,11 @@ a.follow_button {
 .four_sec video {
   position: relative;
 }
-.second_sec .gallery_pos:before {
+/* .second_sec .gallery_pos:before {
   background: rgba(0,0,0,0.6);
   backdrop-filter: blur(2px);
   z-index: revert-layer;
-}
+} */
 .four_sec .gallery_pos:before {
   background: rgba(0,0,0,0.6);
   backdrop-filter: blur(2px);
@@ -1900,7 +1903,11 @@ a.follow_button {
   margin-bottom: 30px;
 }
 .review-slide-2 .whatsapp-review img {
-  width: 375px;
+  width: 410px;
+}
+.contact-info.reviewcontent2 p {
+  text-decoration-line: none !important;
+  font-family: "Messina Sans" !important;
 }
 .reviewcontent2 p{
     color: #fff;
@@ -2282,7 +2289,7 @@ a.follow_button {
 .services_tabs_panel {
   display: flex;
   justify-content: center;
-  padding: 150px 100px 120px 100px;
+  padding: 90px 100px 120px 100px;
 }
 .services_tab_title {
   color: #fff;
@@ -4105,7 +4112,8 @@ video.videoiphn {
       height: 454px !important;
   }
   .workbnr:after {
-      background: linear-gradient(180deg, rgb(19 19 19 / 52%) 0%, #131313 66%);
+    background: linear-gradient(180deg, rgb(19 19 19 / 0) 0%, #131313 88%);
+    height: 100%;
   }
   .workheading {
       padding: 10px 0 20px;
@@ -4114,18 +4122,18 @@ video.videoiphn {
       height: 410px;
   }
   .workbnr {
-      height: 810px !important;
+      height: 100vh !important;
   }
   .workbanner-links {
       gap: 19px;
   }
 
   .home_gallery_block {
-      padding-top: 80px;
+      padding-top: 0px;
   }
   .workcontent {
-    margin-top: 213px;
-    padding-bottom: 180px;
+    margin-top: 0px;
+    padding-bottom: 0px;
 }
 
   .project_list_wrapper.plr-100 {
@@ -4169,11 +4177,11 @@ video.videoiphn {
       margin-bottom: 18px;
   }
   .workcontent {
-      margin-top: 303px;
-      padding-bottom: 110px;
-  }
+      margin-top: 0px;
+      padding-bottom: 0px;
+  }   
   .home_gallery_block {
-      padding-top: 210px;
+      padding-top: 0px;
   }
   .workbnr {
       overflow: visible !important;
@@ -4286,6 +4294,9 @@ video.videoiphn {
   .four_sec .gallery-content-review-title {
     width: 90%;
   }
+  .dubaicontent{
+    height: 500px;
+  }
   .thirdsec  .gallery_pos img {
       height: 100%;
       object-fit: cover;
@@ -4294,7 +4305,12 @@ video.videoiphn {
       bottom: 20px;
   }
   .home_gallery_block .firstsec .gallery-content-1 {
-      height: 535px;
+      height: auto;
+  }
+  .gallery_pos img {
+    transform: unset !important;
+      position: unset;
+      width: 100%;
   }
   .common_work_slide_text .workbox_head h2,
   .common_work_slide_text .workbox_head p {
@@ -4885,6 +4901,13 @@ video.videoiphn {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
   }
+  .contact_frame {
+      width: 100%;
+  }
+  .aboutusbanner .aboutus_des {
+      font-size: 16px;
+      line-height: 28px;
+  }
   .social-media-slider .swiper-slide-active .common_service_slide {
     height: 432px;
     margin: 0;
@@ -5038,6 +5061,13 @@ video.videoiphn {
   .gallery_content1 {
     left: -20%;
   }
+  .review-slide-2 .whatsapp-review img {
+    width: 360px;
+}
+.review-swiper-container .swiper {
+    padding: 0px 10px;
+  }
+
 }
 
 @media (max-width: 480px) {

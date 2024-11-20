@@ -15,7 +15,7 @@ const AboutPage2 = () => {
           <div className="h-screen w-full relative">
           <img src={BannerImage} alt="" className="w-full h-full object-cover object-center"/>
           
-            <div className=" absolute top-0 w-full h-full">
+            <div className="absolute top-0 w-full h-full aboutusbanner">
               <div className="w-full h-full flex items-end">
                 <div className="bg-[black] bg-opacity-[65%] backdrop-blur-sm w-full h-[60%]">
                   <div className="px-5 py-10  h-full">
@@ -25,17 +25,17 @@ const AboutPage2 = () => {
                         <div className="">Why Milkbar?</div>
                       </div>
                     </div>
-                    <div className="text-sm mt-5 leading-loose">
+                    <div className="text-sm mt-5 leading-loose aboutus_des">
                       Milkbar is 'Milkbar' because the my family immigrated from
                       a Greek village to Australia.
                     </div>
-                    <div className="text-sm mt-5 leading-loose">
+                    <div className="text-sm mt-5 leading-loose aboutus_des">
                       Many Greek immigrants opened corner shops, emulating the
                       greek cafe tradition, called "Milkbars". Milkbars became
                       cornerstones of a community in transition from immense
                       loss to prosperity while staying grounded in tradition.
                     </div>
-                    <div className="text-sm mt-5 leading-loose">
+                    <div className="text-sm mt-5 leading-loose aboutus_des">
                       Everything beautiful in life lies in the perpetual state
                       between the classic and the new.{" "}
                     </div>
