@@ -17,7 +17,7 @@ const AboutPage2 = () => {
           
             <div className="absolute top-0 w-full h-full aboutusbanner">
               <div className="w-full h-full flex items-end">
-                <div className="bg-[black] bg-opacity-[65%] backdrop-blur-sm w-full h-[60%]">
+                <div className="bg-[black] bg-opacity-[65%] backdrop-blur-sm w-full aboutusbanner-summary">
                   <div className="px-5 py-10  h-full">
                     <div>
                       <div className="flex gap-3 items-center">

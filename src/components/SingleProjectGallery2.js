@@ -5,6 +5,7 @@ import Gallery2 from "../assets/images/gallery-2.jpg";
 import Gallery3 from "../assets/images/gallery-3.png";
 import londonbasedbanner from "../assets/images/londonbasedbanner.png";
 import Hongkongmiddle from "../assets/images/Hongkongmiddlenew.png";
+import Hongkongmiddlemobile from "../assets/images/hongkongmobile.png";
 import londonecommer from "../assets/images/londonecommer.png";
 import Video from "../assets/videos/single-projectslider-video.mp4";
 import Toronto from "../assets/videos/Toronto.mp4";
@@ -108,7 +109,8 @@ export default function SingleProjectGallery({ projects }) {
             </div>
           </div>
           <div className="gallery_pos gallery-content-1">
-            <img src={Hongkongmiddle} alt="Hongkongmiddle" />
+            <img class="destopimgproject" src={Hongkongmiddle} alt="Hongkongmiddle" />
+            <img class="mobileimgproject" src={Hongkongmiddlemobile} alt="Hongkongmiddlemobile" />
             <div className="gallery-content-review-title">
               <h4>Hong Kong-based coffee group</h4>
               <p>WEB DESIGN & DEVELOPMENT</p>

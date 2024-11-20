@@ -1551,7 +1551,7 @@ a.follow_button {
 }
 .home_gallery_block {
   position: relative;
-  padding-top: 0px;
+  padding-top: 120px;
   padding-bottom: 170px;
   padding-left: 100px;
   padding-right: 100px;
@@ -1903,7 +1903,8 @@ a.follow_button {
   margin-bottom: 30px;
 }
 .review-slide-2 .whatsapp-review img {
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
 }
 .contact-info.reviewcontent2 p {
   text-decoration-line: none !important;
@@ -3628,6 +3629,9 @@ input[type="file"]::-webkit-file-upload-button {
 
 
 /* 11 november */
+.mobileimgproject{
+  display: none;
+}
 .dotsbtn {
   margin-bottom: 25px;
 }
@@ -3846,6 +3850,10 @@ video.videoiphn {
   letter-spacing: 0.9px;
   text-transform: lowercase;
 }
+.aboutusbanner-summary{
+  padding-right: 20px;
+}
+
 /* Responsive Css */
 
 @media (min-width: 1281px) {
@@ -4087,6 +4095,14 @@ video.videoiphn {
 }
 
 @media (max-width: 1281px) {
+  .home_gallery_block .firstsec .gallery-content-1 {
+      height: auto;
+  }
+  .gallery_pos img {
+    transform: unset !important;
+      position: unset;
+      width: 100%;
+  }
   .featured_work_slider .featured-title {
     margin-bottom: 18px;
   }
@@ -4148,6 +4164,7 @@ video.videoiphn {
     height: 770px;
     object-fit: cover;
   }
+ 
 }
 @media (max-width: 992px) {
   .project_verticle_images .project_verticle_image:first-child {
@@ -4299,7 +4316,10 @@ video.videoiphn {
     width: 90%;
   }
   .dubaicontent{
-    height: 500px;
+    height: 550px !important;
+  }
+  .gallery-content-review-title h4, .gallry-des_btm h4 {
+      font-size: 18px;
   }
   .thirdsec  .gallery_pos img {
       height: 100%;
@@ -4972,8 +4992,15 @@ video.videoiphn {
   .gallery_image_4 {
     margin-left: 200px;
   }
+  
 }
 @media (max-width: 645px) {
+  .destopimgproject{
+    display: none;
+  }
+  .mobileimgproject{
+    display: block;
+  }
   .swiper-slide.follow_media_image img {
       height: 182px;
   }
@@ -5066,7 +5093,7 @@ video.videoiphn {
     left: -20%;
   }
   .review-slide-2 .whatsapp-review img {
-    width: 360px;
+    max-width: 360px;
 }
 .review-swiper-container .swiper {
     padding: 0px 10px;
@@ -5075,6 +5102,10 @@ video.videoiphn {
 }
 
 @media (max-width: 480px) {
+  .gallery-content-review-title h4, 
+  .gallry-des_btm h4 {
+      font-size: 16px;
+  }
   .home_gallery_middle {
     justify-content: unset;
     flex-wrap: wrap;
@@ -5103,7 +5134,7 @@ video.videoiphn {
     justify-content: flex-start;
   }
   .review-swiper-container .swiper {
-    padding: 0px 20px;
+    padding: 0px 0;
   }
   .ptb-120 {
     padding-top: 40px;
