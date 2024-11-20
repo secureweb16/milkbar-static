@@ -4094,6 +4094,7 @@ video.videoiphn {
 @media (max-width: 1024px) {
   .featured_work_slider {
       padding-top: 80px !IMPORTANT;
+      padding-bottom: 80px !IMPORTANT;
   }
   .featured_work_slider .featured-title {
       margin-bottom: 30px;
@@ -4163,6 +4164,9 @@ video.videoiphn {
   .project-mobile-image-2 {
     margin-top: 55px !important;
   }
+  .featured_work_slider {
+    padding-bottom: 50px !IMPORTANT;
+}
 }
 
 @media (max-width: 768px) {
